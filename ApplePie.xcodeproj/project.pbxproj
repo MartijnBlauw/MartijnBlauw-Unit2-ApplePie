@@ -13,7 +13,6 @@
 		4812B2051FB46F7A00012520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4812B2041FB46F7A00012520 /* Assets.xcassets */; };
 		4812B2081FB46F7A00012520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4812B2061FB46F7A00012520 /* LaunchScreen.storyboard */; };
 		4812B2101FB47B6900012520 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4812B20F1FB47B6900012520 /* Game.swift */; };
-		48F51C551FB5C2C800076525 /* Apple Pie.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F51C541FB5C2C800076525 /* Apple Pie.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,7 @@
 		4812B2071FB46F7A00012520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4812B2091FB46F7A00012520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4812B20F1FB47B6900012520 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		48F51C541FB5C2C800076525 /* Apple Pie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Apple Pie.png"; path = "../../../Apple Pie.png"; sourceTree = "<group>"; };
+		48F51C591FB5C44700076525 /* Apple Pie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple Pie.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +41,7 @@
 		4812B1F11FB46F7A00012520 = {
 			isa = PBXGroup;
 			children = (
-				48F51C531FB5C1E900076525 /* doc */,
+				48F51C581FB5C44100076525 /* docs */,
 				4812B1FC1FB46F7A00012520 /* ApplePie */,
 				4812B1FB1FB46F7A00012520 /* Products */,
 			);
@@ -70,12 +69,12 @@
 			path = ApplePie;
 			sourceTree = "<group>";
 		};
-		48F51C531FB5C1E900076525 /* doc */ = {
+		48F51C581FB5C44100076525 /* docs */ = {
 			isa = PBXGroup;
 			children = (
-				48F51C541FB5C2C800076525 /* Apple Pie.png */,
+				48F51C591FB5C44700076525 /* Apple Pie.png */,
 			);
-			path = doc;
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +136,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F51C551FB5C2C800076525 /* Apple Pie.png in Resources */,
 				4812B2081FB46F7A00012520 /* LaunchScreen.storyboard in Resources */,
 				4812B2051FB46F7A00012520 /* Assets.xcassets in Resources */,
 				4812B2031FB46F7A00012520 /* Main.storyboard in Resources */,
