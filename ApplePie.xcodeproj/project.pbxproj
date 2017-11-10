@@ -40,6 +40,7 @@
 		4812B1F11FB46F7A00012520 = {
 			isa = PBXGroup;
 			children = (
+				48F51C531FB5C1E900076525 /* doc */,
 				4812B1FC1FB46F7A00012520 /* ApplePie */,
 				4812B1FB1FB46F7A00012520 /* Products */,
 			);
@@ -65,6 +66,13 @@
 				4812B2091FB46F7A00012520 /* Info.plist */,
 			);
 			path = ApplePie;
+			sourceTree = "<group>";
+		};
+		48F51C531FB5C1E900076525 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
