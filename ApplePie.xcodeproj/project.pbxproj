@@ -12,6 +12,7 @@
 		4812B2031FB46F7A00012520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4812B2011FB46F7A00012520 /* Main.storyboard */; };
 		4812B2051FB46F7A00012520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4812B2041FB46F7A00012520 /* Assets.xcassets */; };
 		4812B2081FB46F7A00012520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4812B2061FB46F7A00012520 /* LaunchScreen.storyboard */; };
+		4812B2101FB47B6900012520 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4812B20F1FB47B6900012520 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4812B2041FB46F7A00012520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4812B2071FB46F7A00012520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4812B2091FB46F7A00012520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4812B20F1FB47B6900012520 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				4812B1FD1FB46F7A00012520 /* AppDelegate.swift */,
 				4812B1FF1FB46F7A00012520 /* ViewController.swift */,
 				4812B2011FB46F7A00012520 /* Main.storyboard */,
+				4812B20F1FB47B6900012520 /* Game.swift */,
 				4812B2041FB46F7A00012520 /* Assets.xcassets */,
 				4812B2061FB46F7A00012520 /* LaunchScreen.storyboard */,
 				4812B2091FB46F7A00012520 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4812B2001FB46F7A00012520 /* ViewController.swift in Sources */,
+				4812B2101FB47B6900012520 /* Game.swift in Sources */,
 				4812B1FE1FB46F7A00012520 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
